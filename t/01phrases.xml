@@ -9,18 +9,17 @@
  
  <phrasebook>
  <dictionary name="BASE">
-   <phrase name="foo">
-     Welcome to [% my %] world.
-     It is a nice [%place %].
-   </phrase>
-   <phrase name="bar">
-     Welcome to :my world. 
-     It is a nice :place.
-   </phrase>
-    <phrase name="baz">
+   <phrase name="empty"></phrase>
+   <phrase name="foo">my world</phrase>
+   <phrase name="baz">
   1
  2 
  3
    </phrase>
-</dictionary>
+ </dictionary>
+ <dictionary name="OTHER">
+   <phrase name="baz">
+    Welcome to wherever
+   </phrase>
+ </dictionary>
  </phrasebook>

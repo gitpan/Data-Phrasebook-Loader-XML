@@ -8,17 +8,9 @@
  ]>
  
  <phrasebook>
- <dictionary name="BASE">
-   <phrase name="find_series">
-     select title,author from books where class = :series
-   </phrase>
-   <phrase name="find_author">
-     select title,author from books where author = :author
-   </phrase>
-   <phrase name="count_author">
-     select count(1)
-     from books
-     where author = :author
+ <dictionary>
+   <phrase name="baz">
+    Welcome to wherever
    </phrase>
  </dictionary>
  </phrasebook>

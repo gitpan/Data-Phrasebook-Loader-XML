@@ -9,8 +9,8 @@
  
  <phrasebook>
  <dictionary name="BASE">
-   <phrase name="find_author">
-     select class,title,author from books where author = :author
+   <phrase>
+    Welcome to wherever
    </phrase>
  </dictionary>
  </phrasebook>
