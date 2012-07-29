@@ -1,29 +1,41 @@
 # Changes log for Data::Phrasebook::Loader::XML
 
+0.13    29/07/2012
+        - spelling fix. (thanks to Nicholas Bamber, Florian Schlichting & 
+          Gregor Herrmann).
+        - removed License files from distro.
+        - Artistic License v2 now sole license.
+        - removed DSLIP info.
+        - added minimum perl version (5.006).
+        - reworked Makefile.PL for clarity.
+        - updated META.yml testing.
+        - added META.json
+        - added Changes file tests.
+
 0.12    01/03/2007
-	- Fixed META.yml typos.
-	- Added META.yml test script.
+        - Fixed META.yml typos.
+        - Added META.yml test script.
 
-0.11	22/02/2007
-	- Handwritten META.yml to conform to current specs.
-	- Changed all instances of LICENCE to LICENSE as *apparently*, to all
-	  non-British users of this module, this a bug! I beg to differ -
-	  http://dictionary.reference.com/search?q=licence
-	- Added an examples directory. Nothing in it yet, except a request
-	  for interesting scripts.
-	- Minor fix suggested by Perl::Critic.
+0.11    22/02/2007
+        - Handwritten META.yml to conform to current specs.
+        - Changed all instances of LICENCE to LICENSE as *apparently*, to all
+          non-British users of this module, this a bug! I beg to differ -
+          http://dictionary.reference.com/search?q=licence
+        - Added an examples directory. Nothing in it yet, except a request
+          for interesting scripts.
+        - Minor fix suggested by Perl::Critic.
 
-0.10	22/09/2005
-	- Added sorting to keywords().
+0.10    22/09/2005
+        - Added sorting to keywords().
 
-0.09	09/08/2005
-	- Upped prerequisite for Data::Phrasebook to 0.23.
-	- Added keywords() support.
-	- Added POD for continuation lines.
-	- Added 'ignore_newlines' option.
+0.09    09/08/2005
+        - Upped prerequisite for Data::Phrasebook to 0.23.
+        - Added keywords() support.
+        - Added POD for continuation lines.
+        - Added 'ignore_newlines' option.
 
-0.08	15/06/2005
-	- Upped prerequisite for Data::Phrasebook to 0.22.
+0.08    15/06/2005
+        - Upped prerequisite for Data::Phrasebook to 0.22.
 
 0.07    13/06/2005
         - Added dicts() support
@@ -39,12 +51,12 @@
 0.04    03/03/2005
         - POD updates.
 
-0.03    02 Mar 2005
+0.03    02/03/2005
         - Removed Test::MockObject from tests. No longer needed.
 
-0.02    23 Feb 2005
+0.02    23/02/2005
         - revamped and renamed as part of the Data::Phrasebook framework
 
-0.01    31 Jan 2004
+0.01    31/01/2004
         - Extracted from main Phrasebook distribution
 
