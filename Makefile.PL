@@ -15,6 +15,7 @@ WriteMakefile(
     PREREQ_PM           => {
 
         # runtime prereqs
+        'Carp'                  => '0',
         'Data::Phrasebook'      => '0.24',
         'XML::Parser'           => '0',
 
