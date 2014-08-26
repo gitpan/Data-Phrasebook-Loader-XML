@@ -1,12 +1,12 @@
 {
     "name": "Data-Phrasebook-Loader-XML",
-    "version": "0.15",
+    "version": "0.16",
     "abstract": "Loader class for phrasebook implementations using XML files",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
     ],
 
-    "license": "artistic_2",
+    "license": [ "artistic_2" ],
     "dynamic_config" : 0,
     "release_status" : "stable",
     "meta-spec": {
@@ -47,7 +47,7 @@
     "provides": {
         "Data::Phrasebook::Loader::XML": {
             "file": "lib/Data/Phrasebook/Loader/XML.pm",
-            "version": "0.15"
+            "version": "0.16"
         }
     },
     "no_index": {
@@ -55,7 +55,7 @@
     },
 
     "resources": {
-        "license": "http://dev.perl.org/licenses/",
+        "license": [ "http://dev.perl.org/licenses/" ],
         "bugtracker": { "web": "http://rt.cpan.org/Public/Dist/Display.html?Name=Data-Phrasebook-Loader-XML" },
         "repository": {
             "url": "git://github.com/barbie/data-phrasebook-loader-xml.git",

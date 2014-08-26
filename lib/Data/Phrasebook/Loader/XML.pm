@@ -1,12 +1,19 @@
 package Data::Phrasebook::Loader::XML;
+
 use strict;
 use warnings FATAL => 'all';
-use Carp qw( croak );
+
+our $VERSION = '0.16';
+
+#--------------------------------------------------------------------------
+
 use base qw( Data::Phrasebook::Loader::Base Data::Phrasebook::Debug );
+
+use Carp qw( croak );
 use XML::Parser;
 use IO::File;
 
-our $VERSION = '0.15';
+#--------------------------------------------------------------------------
 
 =head1 NAME
 
@@ -338,9 +345,9 @@ be forthcoming, please feel free to (politely) remind me.
 
 =head1 COPYRIGHT AND LICENSE
 
-  Copyright (C) 2004-2012 Barbie for Miss Barbell Productions.
+  Copyright (C) 2004-2014 Barbie for Miss Barbell Productions.
 
-  This module is free software; you can redistribute it and/or
+  This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License 2.0.
 
 =cut
